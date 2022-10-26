@@ -1,0 +1,126 @@
+body {
+    background-color:rgb(166, 187, 173);
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 300%;
+        /* text-align: center; */
+          }
+    .Portfolio {
+        padding-left: 10px;
+    }
+
+    .process {
+        clear: left; 
+    }
+    .About {
+        padding-left: 10px;
+    }
+
+    .hedder {
+        padding-left: 88px;
+    } 
+    
+    figure {
+        float: left;
+    }
+    .retro {
+        clear: left; 
+        padding-top: 20px;
+    }
+
+
+
+/* Portfolio tiles */
+    .Art button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            background-color: #4CAF50; /* Green */
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 4em;
+            margin: 10px;
+            padding-left: 10px;
+           
+    }
+
+    .Art button:hover {
+        background-color: #0d6710; /* Darker Green */
+        color: white;
+      }
+
+
+      .Graphic_Design button {
+        border-radius: 10px;
+        padding: 50px 50px;
+        background-color: #4CAF50; /* Green */
+        font-family: 'Oswald', sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center; 
+        font-size: 2.5em; 
+        margin: 10px;
+        float: left;
+        padding-left: 10px;
+        
+}
+
+        .Graphic_Design button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: white;
+        }
+        .UX_Design button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            background-color: #4CAF50; /* Green */
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 3.5em;
+            margin: 10px;
+            padding-left: 10px;
+            float:left;         
+    }
+    
+        .UX_Design button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: white;
+        }
+
+        .Tech_Writing button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            background-color: #4CAF50; /* Green */
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 2.5em; 
+            margin: 10px;
+            padding-left: 10px;
+            float:left;
+               
+    }
+    
+        .Tech_Writing button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: white;
+        }
+          
+        #navtext a {
+            font-family: 'Oswald', sans-serif;
+            color: white;
+            padding: 1500 px 100 px;
+            /* text-align: center; 
+            float:right; */
+          }
+        
+        #text p {
+            font-family: 'Oswald', sans-serif;
+            color: white;
+            text-align: center;
+            
+          }
+
+       
