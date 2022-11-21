@@ -8,8 +8,8 @@ document.getElementById('header')
             <div>
               <h3>Stay in touch</h3>
               <p><a href ="mailto:bkvagnini@gmail.com">Email: bkvagnini@gmail.com</a></p>
-              <p> Text: 850-583-0842</p>
-              <p> Call: 850-583-0842</p>
+              <p> <a href="sms:850-583-0842">Text: 850-583-0842</a></p>
+              <p> <a href="tel:850-583-0842">Call: 850-583-0842</a></p>
             </div>
           </section>
           

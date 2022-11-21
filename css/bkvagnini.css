@@ -31,7 +31,18 @@ body {
         padding-top: 20px;
     }
 
-
+    .nav button {
+        border-radius: 10px;
+        padding: 10px 10px;
+        background-color: #b4bdb4; /* Light Grey */
+        font-family: 'Oswald', sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center; 
+        font-size: 2em;
+        margin: 10px;
+        padding-left: 10px;
+       
+}
 
 /* Portfolio tiles */
     .Art button {
