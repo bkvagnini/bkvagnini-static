@@ -31,6 +31,15 @@ body {
         padding-top: 20px;
     }
 
+    .featured {
+        /* clear: left; */
+        margin-top:10px;
+        padding: 20px;
+        background-color: #eef3ee; /* Light Grey */
+        margin-bottom:10px;
+
+    }
+
     .nav button {
         border-radius: 10px;
         padding: 10px 10px;
@@ -44,6 +53,40 @@ body {
        
 }
 
+#navtext a {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1500 px 100 px;
+    /* text-align: center; 
+    float:right; */
+  }
+
+#text p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    
+  }
+
+
+@media screen and (min-width: 600px) {
+
+
+    .UX_Buttons {
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+     
+     
+    .UX_Buttons {
+        display: flex; 
+        flex-direction: column;
+    }
+}
 /* Portfolio tiles */
     .Art button {
             border-radius: 10px;
@@ -82,10 +125,74 @@ body {
             background-color: #0d6710; /* Darker Green */
             color: white;
         }
+
         .UX_Design button {
             border-radius: 10px;
             padding: 50px 50px;
-            background-color: #4CAF50; /* Green */
+            background-color: #4CAF50;  /* Green */
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 3.5em;
+            margin: 10px;
+            padding-left: 10px;
+            width: 350px;
+            float:left;      
+    }
+    
+        .UX_Design button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: white;
+        }
+
+        .UX_Design1 button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            /* background-color: #4CAF50; */ /* Green */
+            background-image: url("../images/perp_catcher.png");
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 3.5em;
+            margin: 10px;
+            padding-left: 10px;
+            width: 270px;
+            /* float: left;  */
+         
+    }
+    
+        .UX_Design1 button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: rebeccapurple;
+        }
+
+        .UX_Design2 button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            /* background-color: #4CAF50; */ /* Green */
+            background-image: url("../images/portfolio_site.png");
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 3.5em;
+            margin: 10px;
+            padding-left: 10px;
+            width: 350px;
+            border: 1px solid rgb(240, 244, 240);
+              /* float: left;  */
+            display: flex;        
+    }
+    
+        .UX_Design2 button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: rebeccapurple;
+        }
+
+        .UX_Design3 button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            /* background-color: #4CAF50; */ /* Green */
+            background-image: image("../images/portfolio_site.png");
             font-family: 'Oswald', sans-serif;
             color: rgb(0, 0, 0);
             text-align: center; 
@@ -95,9 +202,9 @@ body {
             float:left;         
     }
     
-        .UX_Design button:hover {
+        .UX_Design3 button:hover {
             background-color: #0d6710; /* Darker Green */
-            color: white;
+            color: rebeccapurple;
         }
 
         .Tech_Writing button {
@@ -118,20 +225,8 @@ body {
             background-color: #0d6710; /* Darker Green */
             color: white;
         }
-          
-        #navtext a {
-            font-family: 'Oswald', sans-serif;
-            color: white;
-            padding: 1500 px 100 px;
-            /* text-align: center; 
-            float:right; */
-          }
         
-        #text p {
-            font-family: 'Oswald', sans-serif;
-            color: white;
-            text-align: center;
-            
-          }
 
-       
+
+
+
