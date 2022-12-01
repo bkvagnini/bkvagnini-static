@@ -32,7 +32,7 @@ body {
     }
 
     .featured {
-        /* clear: left; */
+        clear: left;
         margin-top:10px;
         padding: 20px;
         background-color: #eef3ee; /* Light Grey */
@@ -192,13 +192,14 @@ body {
             border-radius: 10px;
             padding: 50px 50px;
             /* background-color: #4CAF50; */ /* Green */
-            background-image: image("../images/portfolio_site.png");
+            background-image: url("../images/shirts_by_mike.png");
             font-family: 'Oswald', sans-serif;
             color: rgb(0, 0, 0);
             text-align: center; 
             font-size: 3.5em;
             margin: 10px;
             padding-left: 10px;
+            width: 270px;
             float:left;         
     }
     
