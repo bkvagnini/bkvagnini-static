@@ -1,9 +1,10 @@
 body {
-    background-color:rgb(166, 187, 173);
+    /* background-color:rgb(166, 187, 173); */
+    background-color: white;
     }
 
     h1 {
-        color: white;
+        color: rgb(166, 187, 173);
         font-family: 'Oswald', sans-serif;
         font-size: 300%;
         /* text-align: center; */
@@ -23,9 +24,6 @@ body {
         padding-left: 88px;
     } 
     
-    figure {
-        float: left;
-    }
     .retro {
         clear: left; 
         padding-top: 20px;
@@ -55,7 +53,7 @@ body {
 
 #navtext a {
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: rgb(166, 187, 173);
     padding: 1500 px 100 px;
     /* text-align: center; 
     float:right; */
@@ -63,7 +61,7 @@ body {
 
 #text p {
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: rgb(166, 187, 173);
     text-align: center;
     
   }
@@ -76,6 +74,10 @@ body {
         display: flex; 
         flex-direction: row;
     }
+    
+    figure {
+        float: left; 
+   }
 }
 
 
@@ -86,63 +88,99 @@ body {
         display: flex; 
         flex-direction: column;
     }
+    figure {
+        /* float: left; */
+    }
 }
 /* Portfolio tiles */
+.Product button {
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #808280; /* light grey */
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    font-size: 2em;
+    margin: 10px;
+    padding-left: 10px;
+   
+}
+
+.Product button:hover {
+background-color: grey; 
+color: #0d6710; /* Darker Green */;
+}
+
+.Music button {
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #808280; /* light grey */
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    font-size: 2em;
+    margin: 10px;
+    padding-left: 10px;
+   
+}
+
+.Music button:hover {
+background-color: grey; 
+color: #0d6710; /* Darker Green */;
+}
+
     .Art button {
-            border-radius: 10px;
-            padding: 50px 50px;
-            background-color: #4CAF50; /* Green */
-            font-family: 'Oswald', sans-serif;
-            color: rgb(0, 0, 0);
-            text-align: center; 
-            font-size: 4em;
-            margin: 10px;
-            padding-left: 10px;
+        border-radius: 10px;
+        padding: 10px 10px;
+        background-color: #808280; /* light grey */
+        font-family: 'Oswald', sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center; 
+        font-size: 2em;
+        margin: 10px;
+        padding-left: 10px;
            
     }
 
     .Art button:hover {
-        background-color: #0d6710; /* Darker Green */
-        color: white;
+        background-color: grey; 
+        color: #0d6710; /* Darker Green */;
       }
 
 
       .Graphic_Design button {
         border-radius: 10px;
-        padding: 50px 50px;
-        background-color: #4CAF50; /* Green */
+        padding: 10px 10px;
+        background-color: #808280; /* light grey */
         font-family: 'Oswald', sans-serif;
         color: rgb(0, 0, 0);
         text-align: center; 
-        font-size: 2.5em; 
+        font-size: 2em;
         margin: 10px;
-        float: left;
         padding-left: 10px;
         
 }
 
         .Graphic_Design button:hover {
-            background-color: #0d6710; /* Darker Green */
-            color: white;
+            background-color: grey; 
+            color: #0d6710; /* Darker Green */;
         }
 
         .UX_Design button {
             border-radius: 10px;
-            padding: 50px 50px;
-            background-color: #4CAF50;  /* Green */
+            padding: 10px 10px;
+            background-color: #808280; /* light grey */
             font-family: 'Oswald', sans-serif;
             color: rgb(0, 0, 0);
             text-align: center; 
-            font-size: 3.5em;
+            font-size: 2em;
             margin: 10px;
-            padding-left: 10px;
-            width: 350px;
-            float:left;      
+            padding-left: 10px;    
     }
     
         .UX_Design button:hover {
-            background-color: #0d6710; /* Darker Green */
-            color: white;
+            background-color: grey; 
+            color: rebeccapurple;
         }
 
         .UX_Design1 button {
@@ -162,7 +200,7 @@ body {
     }
     
         .UX_Design1 button:hover {
-            background-color: #0d6710; /* Darker Green */
+            background-color: grey; 
             color: rebeccapurple;
         }
 
@@ -210,24 +248,43 @@ body {
 
         .Tech_Writing button {
             border-radius: 10px;
-            padding: 50px 50px;
-            background-color: #4CAF50; /* Green */
+            padding: 10px 10px;
+            background-color: #808280; /* light grey */
             font-family: 'Oswald', sans-serif;
             color: rgb(0, 0, 0);
             text-align: center; 
-            font-size: 2.5em; 
+            font-size: 2em;
             margin: 10px;
             padding-left: 10px;
-            float:left;
                
     }
     
         .Tech_Writing button:hover {
+            /*
             background-color: #0d6710; /* Darker Green */
-            color: white;
+            /*color: white; */
+            background-color: grey; 
+            color: #0d6710; /* Darker Green */;
         }
         
 
+/*
+.Art button {
+    border-radius: 10px;
+    padding: 50px 50px;
+    background-color: #4CAF50; /* Green */ /*
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    font-size: 4em;
+    margin: 10px;
+    padding-left: 10px;
+   
+}
 
+.Art button:hover {
+background-color: grey; 
+color: #0d6710; /* Darker Green */ /*;
+} */
 
 
