@@ -9,6 +9,11 @@ body {
         font-size: 300%;
         /* text-align: center; */
           }
+
+          img {
+            max-width: 100%;
+            height: auto;
+          }
     .Portfolio {
         padding-left: 10px;
     }
@@ -73,10 +78,12 @@ body {
     .UX_Buttons {
         display: flex; 
         flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
     
-    figure {
-        float: left; 
+    /* figure {
+        float: left; */
    }
 }
 
@@ -88,9 +95,9 @@ body {
         display: flex; 
         flex-direction: column;
     }
-    figure {
-        /* float: left; */
-    }
+     /* figure {
+       float: left; 
+    }*/
 }
 /* Portfolio tiles */
 .Product button {
@@ -183,6 +190,10 @@ color: #0d6710; /* Darker Green */;
             color: rebeccapurple;
         }
 
+        .button_text {
+            margin-left: 10px;
+        }
+
         .UX_Design1 button {
             border-radius: 10px;
             padding: 50px 50px;
@@ -196,6 +207,7 @@ color: #0d6710; /* Darker Green */;
             padding-left: 10px;
             width: 270px;
             /* float: left;  */
+            display: flex; 
          
     }
     
@@ -208,14 +220,14 @@ color: #0d6710; /* Darker Green */;
             border-radius: 10px;
             padding: 50px 50px;
             /* background-color: #4CAF50; */ /* Green */
-            background-image: url("../images/portfolio_site.png");
+            background-image: url("../images/6gen3_thumbnail.png");
             font-family: 'Oswald', sans-serif;
             color: rgb(0, 0, 0);
             text-align: center; 
             font-size: 3.5em;
             margin: 10px;
             padding-left: 10px;
-            width: 350px;
+            width: 150px;
             border: 1px solid rgb(240, 244, 240);
               /* float: left;  */
             display: flex;        
@@ -236,12 +248,35 @@ color: #0d6710; /* Darker Green */;
             text-align: center; 
             font-size: 3.5em;
             margin: 10px;
+            margin-left: 15px;
             padding-left: 10px;
             width: 270px;
-            float:left;         
+            display: flex;         
     }
     
         .UX_Design3 button:hover {
+            background-color: #0d6710; /* Darker Green */
+            color: rebeccapurple;
+        }
+
+        .UX_Design4 button {
+            border-radius: 10px;
+            padding: 50px 50px;
+            /* background-color: #4CAF50; */ /* Green */
+            background-image: url("../images/portfolio_site.png");
+            font-family: 'Oswald', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center; 
+            font-size: 3.5em;
+            margin: 10px;
+            padding-left: 10px;
+            width: 350px;
+            border: 1px solid rgb(240, 244, 240);
+              /* float: left;  */
+            display: flex;         
+    }
+    
+        .UX_Design4 button:hover {
             background-color: #0d6710; /* Darker Green */
             color: rebeccapurple;
         }
