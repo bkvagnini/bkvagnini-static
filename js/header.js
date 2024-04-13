@@ -10,6 +10,9 @@ document.getElementById('header')
               <p><a href ="mailto:bkvagnini@gmail.com">Email: bkvagnini@gmail.com</a></p>
               <p> <a href="sms:850-583-0842">Text: 850-583-0842</a></p>
               <p> <a href="tel:850-583-0842">Call: 850-583-0842</a></p>
+              <p></p>
+              <p><a href="BKV_UX_Resume_072623.pdf">My UX Design Resume</a></p>
+              <p><a href="BKV_TechWriter_Resume_072623.pdf">My Technical Writer Resume</a></p>
             </div>
           </section>
           
